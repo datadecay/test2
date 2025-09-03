@@ -1,6 +1,6 @@
 [marketplace]
-enabled = false # Turn on or off the marketplace entirely
-psk = "CHANGEME" # Change this to something more secure.
+enabled = true # Turn on or off the marketplace entirely
+psk = "changed :)" # Change this to something more secure.
 level = 1
 
 [seo]
@@ -8,9 +8,9 @@ enabled = false
 domain = "https://nebulaproxy.io"
 
 [db]
-name = "database" # Your database name
-username = "username" # The username of your DB (SQLITE just ignores this)
-password = "password" # The password to your DB (SQLITE ignores this)
+name = "famf" # Your database name
+username = "yag" # The username of your DB (SQLITE just ignores this)
+password = "yag" # The password to your DB (SQLITE ignores this)
 postgres = false # Enable to use postgres over sqlite (recommended for large prod instances)
 
 [postgres] # Set the "domain" to either and ip address or a actual domain 
