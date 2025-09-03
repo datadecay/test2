@@ -23,7 +23,7 @@ wisp = true
 logging = true # Disable for the tons & tons of logs to go away (useful for debugging but otherwise eh)
 
 [masqr]
-enabled = false
+enabled = true
 failed = "failed.html" # Default masqr failed page. For per-site failed pages, create a folder named "Masqrd" and create DOMAIN.TLD.html
-whitelisted = ["https://nebulaservices.org"] # List of domains to skip masqr
-url = "" # Masqr license URL
+whitelisted = [] # List of domains to skip masqr
+url = "datadecay.koyeb.app/validate" # Masqr license URL
